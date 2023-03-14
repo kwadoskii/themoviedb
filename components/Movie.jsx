@@ -5,7 +5,7 @@ export default function Movie({ movie: { id, title, poster_path, release_date } 
   //https://api.themoviedb.org/3/movie/76341?api_key=${}
   return (
     <Link href={`/movie/${id}`}>
-      <div className="cursor-pointer">
+      <div className="cursor-pointer text-white">
         <Image
           src={`https://image.tmdb.org/t/p/original${poster_path}`}
           priority
