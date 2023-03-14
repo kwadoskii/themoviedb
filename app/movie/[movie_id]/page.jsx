@@ -29,7 +29,7 @@ export default async function page({ params }) {
         Runtime:
         <span className="text-base">{movie.runtime} minutes</span>
       </p>
-      <div className="flex bg-green-600 w-fit p-3 rounded-md py-1.5 text-xs">
+      <div className="flex bg-green-600 text-white w-fit p-3 rounded-md py-1.5 text-xs">
         <p>{movie.status}</p>
       </div>
     </div>
