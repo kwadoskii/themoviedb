@@ -11,7 +11,7 @@ export default async function page({ params }) {
   ).then((data) => data.json());
 
   return (
-    <div className="flex flex-col max-w-7xl px-10 min-h-screen py-5 mx-auto gap-5">
+    <div className="flex flex-col max-w-7xl px-10 min-h-screen py-5 mx-auto gap-5 bg-slate-900">
       <Image
         src={`https://image.tmdb.org/t/p/original${movie?.backdrop_path}`}
         priority
